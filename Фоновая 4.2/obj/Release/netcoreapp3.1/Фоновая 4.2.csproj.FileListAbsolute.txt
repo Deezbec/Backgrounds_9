@@ -1,0 +1,11 @@
+C:\User\!Kirill\ООП\Фоновые\Фоновая 4.2\bin\Release\netcoreapp3.1\Фоновая 4.2.exe
+C:\User\!Kirill\ООП\Фоновые\Фоновая 4.2\bin\Release\netcoreapp3.1\Фоновая 4.2.deps.json
+C:\User\!Kirill\ООП\Фоновые\Фоновая 4.2\bin\Release\netcoreapp3.1\Фоновая 4.2.runtimeconfig.json
+C:\User\!Kirill\ООП\Фоновые\Фоновая 4.2\bin\Release\netcoreapp3.1\Фоновая 4.2.runtimeconfig.dev.json
+C:\User\!Kirill\ООП\Фоновые\Фоновая 4.2\bin\Release\netcoreapp3.1\Фоновая 4.2.dll
+C:\User\!Kirill\ООП\Фоновые\Фоновая 4.2\bin\Release\netcoreapp3.1\Фоновая 4.2.pdb
+C:\User\!Kirill\ООП\Фоновые\Фоновая 4.2\obj\Release\netcoreapp3.1\Фоновая 4.2.csprojAssemblyReference.cache
+C:\User\!Kirill\ООП\Фоновые\Фоновая 4.2\obj\Release\netcoreapp3.1\Фоновая 4.2.AssemblyInfoInputs.cache
+C:\User\!Kirill\ООП\Фоновые\Фоновая 4.2\obj\Release\netcoreapp3.1\Фоновая 4.2.AssemblyInfo.cs
+C:\User\!Kirill\ООП\Фоновые\Фоновая 4.2\obj\Release\netcoreapp3.1\Фоновая 4.2.dll
+C:\User\!Kirill\ООП\Фоновые\Фоновая 4.2\obj\Release\netcoreapp3.1\Фоновая 4.2.pdb

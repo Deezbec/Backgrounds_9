@@ -1,0 +1,6 @@
+D:\user\!Kirill\ООП\Фоновые\Фоновая 2.3\bin\Debug\Фоновая 2.3.exe.config
+D:\user\!Kirill\ООП\Фоновые\Фоновая 2.3\bin\Debug\Фоновая 2.3.exe
+D:\user\!Kirill\ООП\Фоновые\Фоновая 2.3\bin\Debug\Фоновая 2.3.pdb
+D:\user\!Kirill\ООП\Фоновые\Фоновая 2.3\obj\Debug\Фоновая 2.3.csprojAssemblyReference.cache
+D:\user\!Kirill\ООП\Фоновые\Фоновая 2.3\obj\Debug\Фоновая 2.3.exe
+D:\user\!Kirill\ООП\Фоновые\Фоновая 2.3\obj\Debug\Фоновая 2.3.pdb

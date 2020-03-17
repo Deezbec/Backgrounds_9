@@ -1,0 +1,12 @@
+D:\user\!Kirill\ООП\Фоновые\Фоновая 3.3\bin\Debug\Фоновая 3.3.exe.config
+D:\user\!Kirill\ООП\Фоновые\Фоновая 3.3\bin\Debug\Фоновая 3.3.exe
+D:\user\!Kirill\ООП\Фоновые\Фоновая 3.3\bin\Debug\Фоновая 3.3.pdb
+D:\user\!Kirill\ООП\Фоновые\Фоновая 3.3\obj\Debug\Фоновая 3.3.csprojAssemblyReference.cache
+D:\user\!Kirill\ООП\Фоновые\Фоновая 3.3\obj\Debug\Фоновая 3.3.exe
+D:\user\!Kirill\ООП\Фоновые\Фоновая 3.3\obj\Debug\Фоновая 3.3.pdb
+C:\User\!Kirill\ООП\Фоновые\Фоновая 3.3\bin\Debug\Фоновая 3.3.exe.config
+C:\User\!Kirill\ООП\Фоновые\Фоновая 3.3\bin\Debug\Фоновая 3.3.exe
+C:\User\!Kirill\ООП\Фоновые\Фоновая 3.3\bin\Debug\Фоновая 3.3.pdb
+C:\User\!Kirill\ООП\Фоновые\Фоновая 3.3\obj\Debug\Фоновая 3.3.csprojAssemblyReference.cache
+C:\User\!Kirill\ООП\Фоновые\Фоновая 3.3\obj\Debug\Фоновая 3.3.exe
+C:\User\!Kirill\ООП\Фоновые\Фоновая 3.3\obj\Debug\Фоновая 3.3.pdb

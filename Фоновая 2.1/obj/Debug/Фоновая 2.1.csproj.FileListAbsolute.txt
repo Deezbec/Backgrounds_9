@@ -1,0 +1,5 @@
+D:\user\!Kirill\ООП\Фоновые\Фоновая 2.1\bin\Debug\Фоновая 2.1.exe.config
+D:\user\!Kirill\ООП\Фоновые\Фоновая 2.1\bin\Debug\Фоновая 2.1.exe
+D:\user\!Kirill\ООП\Фоновые\Фоновая 2.1\bin\Debug\Фоновая 2.1.pdb
+D:\user\!Kirill\ООП\Фоновые\Фоновая 2.1\obj\Debug\Фоновая 2.1.exe
+D:\user\!Kirill\ООП\Фоновые\Фоновая 2.1\obj\Debug\Фоновая 2.1.pdb
