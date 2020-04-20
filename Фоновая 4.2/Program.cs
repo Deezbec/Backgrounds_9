@@ -1,10 +1,12 @@
 ﻿using System;
+using System.IO;
 //Вариант 3
 namespace Фоновая_4._2
 {
     enum Months { Январь = 1, Февраль, Март, Апрель, Май, Июнь, Июль, Август, Сентябрь, Октябрь, Ноябрь, Декабрь }
     class MatrixWeather
     {
+        static Random rand = new Random();
         private int month;
         private int day;
         private int[,] temperature;
@@ -16,7 +18,7 @@ namespace Фоновая_4._2
         }
         private MatrixWeather(int month, int day)
         {
-            this.day = day; 
+            this.day = day;
             this.month = month;
             temperature = RandInput();
         }
@@ -41,10 +43,10 @@ namespace Фоновая_4._2
             {
                 try
                 {
-                    if(f) Console.Write("Введите месяц : ");
-                    else  Console.Write("Введите день : ");
+                    if (f) Console.Write("Введите месяц : ");
+                    else Console.Write("Введите день : ");
                     res = Convert.ToInt32(Console.ReadLine());
-                    if(f) if (res < 1 || res > 12) throw new Exception("Не существует такого месяца"); else flag = false;
+                    if (f) if (res < 1 || res > 12) throw new Exception("Не существует такого месяца"); else flag = false;
                     else if (res < 1 || res > 7) throw new Exception("Не существует такого дня"); else flag = false;
                 }
                 catch (Exception Error)
@@ -66,7 +68,6 @@ namespace Фоновая_4._2
                 else res = new int[6, 7];
             }
             int k = 0;
-            Random rand = new Random();
             for (int i = 0; i < res.GetLength(0); i++)
             {
                 for (int j = 0; j < res.GetLength(1); j++, k++)
@@ -89,7 +90,7 @@ namespace Фоновая_4._2
             for (int i = 0; i < (this.day - 1); i++) { Console.Write("\t"); k++; }
             for (int i = 1; i <= Monthsn[this.month]; i++, k++)
             {
-                if(k % 7 == 0 && i != 1) Console.WriteLine();
+                if (k % 7 == 0 && i != 1) Console.WriteLine();
                 Console.ForegroundColor = ConsoleColor.Red; Console.Write($"{i:D2}");
                 Console.ResetColor(); Console.Write($"  {this.temperature[k / 7, k % 7]}\t");
             }
@@ -99,9 +100,9 @@ namespace Фоновая_4._2
         {
             int[] Monthsn = { 0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
             int max = 0, k = 0; num = 0; temp = 0;
-            for(int i = 0; i < temperature.GetLength(0); i++)
+            for (int i = 0; i < temperature.GetLength(0); i++)
             {
-                for(int j = 0; j < temperature.GetLength(1); j++)
+                for (int j = 0; j < temperature.GetLength(1); j++)
                 {
                     k++;
                     if (i == 0 && j == 0) j = day - 1;
@@ -131,7 +132,7 @@ namespace Фоновая_4._2
         private void MoverRight()
         {
             int temp1 = temperature[0, temperature.GetLength(1) - 1], temp2;
-            for(int i = 0; i < temperature.GetLength(0); i ++)
+            for (int i = 0; i < temperature.GetLength(0); i++)
             {
                 temp2 = temperature[i, temperature.GetLength(1) - 1];
                 for (int j = temperature.GetLength(0); j > 0; j--)
@@ -144,15 +145,15 @@ namespace Фоновая_4._2
         {
             for (int i = 0; i < temperature.GetLength(0); i++)
             {
-                if(i != 0) temperature[i - 1, temperature.GetLength(1) - 1] = temperature[i, 0];
+                if (i != 0) temperature[i - 1, temperature.GetLength(1) - 1] = temperature[i, 0];
                 for (int j = 0; j < temperature.GetLength(0); j++)
                     temperature[i, j] = temperature[i, j + 1];
             }
         }
-        private void Adder (int[,] main, int[,] second)
+        private void Adder(int[,] main, int[,] second)
         {
             for (int i = 0; i < main.GetLength(0); i++)
-                for (int j = 0; j < main.GetLength(1); j++) if(i < second.GetLength(0) && j < second.GetLength(1)) second[i, j] = main[i, j];
+                for (int j = 0; j < main.GetLength(1); j++) if (i < second.GetLength(0) && j < second.GetLength(1)) second[i, j] = main[i, j];
         }
         public int Month
         {
@@ -170,7 +171,7 @@ namespace Фоновая_4._2
             {
                 int[] Monthsn = { 0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
                 int t = day;
-                try 
+                try
                 {
                     int[,] NewOne = new int[6, 7];
                     Adder(temperature, NewOne);
@@ -206,28 +207,109 @@ namespace Фоновая_4._2
             }
         }
         public int[,] Temperature { get { return temperature; } }
-        public int ZeroDays 
-        { 
-            get 
+        public int ZeroDays
+        {
+            get
             {
                 int[] Monthsn = { 0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
                 int k = 0, l = 0;
                 for (int i = 0; i < (this.day - 1); i++) k++;
                 for (int i = 1; i <= Monthsn[this.month]; i++, k++) if (this.temperature[k / 7, k % 7] == 0) l++;
-                return l; 
-            } 
+                return l;
+            }
         }
-        public int SchoolDays 
-        { 
-            get 
+        public int SchoolDays
+        {
+            get
             {
                 int[] Monthsn = { 0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
                 return Monthsn[month] - (Monthsn[month] + day - 1) / 7;
-            } 
+            }
         }
-        static void NoData()
+        public static bool operator <(MatrixWeather First, MatrixWeather Second)
         {
-            
+            if (First.month < Second.month) return true;
+            else return false;
+        }
+        public static bool operator >(MatrixWeather First, MatrixWeather Second)
+        {
+            if (First.month > Second.month) return true;
+            else return false;
+        }
+        public static MatrixWeather operator ++(MatrixWeather Main)
+        {
+            Main.Day = Main.day + 1;
+            return Main;
+        }
+        public static MatrixWeather operator --(MatrixWeather Main)
+        {
+            Main.Day = Main.day - 1;
+            return Main;
+        }
+        public static bool operator true(MatrixWeather Main)
+        {
+            if (Main.ZeroDays == 0) return true;
+            else return false;
+        }
+        public static bool operator false(MatrixWeather Main)
+        {
+            if (Main.ZeroDays != 0) return true;
+            else return false;
+        }
+        int[] MassCreater
+        {
+            get
+            {
+                int k = 0, l = 0;
+                int[] Monthsn = { 0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+                int[] mass = new int[Monthsn[Month]];
+                for (int i = 0; i < (this.day - 1); i++) k++;
+                for (int i = 1; i <= Monthsn[this.month]; i++, k++, l++) mass[l] = this.temperature[k / 7, k % 7];
+                return mass;
+            }
+        }
+        public static bool operator &(MatrixWeather First, MatrixWeather Second)
+        {
+            int[] Monthsn = { 0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+            if (Monthsn[First.Month] < Monthsn[Second.Month]) Monthsn[0] = Monthsn[First.Month];
+            else Monthsn[0] = Monthsn[Second.Month];
+            int[] massFirst = First.MassCreater, massSecond = Second.MassCreater;
+            for (int i = 0; i < Monthsn[0]; i++)
+            {
+                if (massFirst[i] != massSecond[i]) return false;
+            }
+            return true;
+        }
+        public int this[int i, int j]
+        {
+            get
+            {
+                int[] Monthsn = { 0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+                try
+                {
+                    if (Day < i && j == 1) throw new Exception("Ошибка: день не существует");
+                    if (i * j - day > Monthsn[Month]) throw new Exception("Ошибка: день не существует");
+                    if (i * j - day <= Monthsn[Month]) return temperature[i, j];
+                    return -1000;
+                }
+                catch (Exception error)
+                {
+                    Console.WriteLine(error.Message);
+                    return -1000;
+                }
+            }
+            set
+            {
+                try
+                {
+                    if (value < 50 && value > -50) temperature[i, j] = value;
+                    else throw new Exception("Невозможная температура");
+                }
+                catch (Exception Error)
+                {
+                    Console.WriteLine($"Ошибка : {Error.Message}");
+                }
+            }
         }
     }
     class Program
@@ -246,8 +328,8 @@ namespace Фоновая_4._2
         }
         static void Main(string[] args)
         {
-            int num, temp;
-            MatrixWeather MyOwn = MatrixWeather.input();
+            int num, temp, day, month;
+            MatrixWeather MyOwn = MatrixWeather.input(), SecondOne;
             MyOwn.Output();
             Console.WriteLine($@"
 Самый большой суточный скачок температуры — {MyOwn.max(out num, out temp)}, 
@@ -255,6 +337,61 @@ namespace Фоновая_4._2
             Console.WriteLine($"Количество дней в дневнике — {MyOwn.SchoolDays}");
             Console.WriteLine($"Количество дней с температурой 0 — {MyOwn.ZeroDays}");
             Changings(MyOwn);
+            Console.WriteLine("Теперь же вам придется создать еще один дневник");
+            SecondOne = MatrixWeather.input();
+            SecondOne.Output();
+            if (MyOwn > SecondOne && SecondOne < MyOwn) Console.WriteLine("Первый дневник описывает месяц, идущий раньше того, который описывает второй");
+            else Console.WriteLine("Первый дневник описывает месяц, идущий позже того, который описывает второй");
+            Console.WriteLine("Сейчас 1ый дневник будет перемещен на 1 день влево");
+            MyOwn--;
+            Console.WriteLine("Сейчас 2ой дневник будет перемещен на 1 день вправо");
+            SecondOne++;
+            if (SecondOne) Console.WriteLine("Во 2ом дневнике нет ни одниго дня с t = 0");
+            else Console.WriteLine("Во 2ом дневнике есть хотя бы 1 день с t = 0");
+            if (MyOwn & SecondOne) Console.WriteLine("Дневники совпадают поэлементно");
+            else Console.WriteLine("Дневники не совпадают поэлементно");
+            do
+            {
+                Console.Write("Хотите посмотреть значение любого дня 1ого дневника? ");
+                if (Console.ReadLine().ToLower().Replace("l", "д").Replace("f", "а") == "да")
+                {
+                    try
+                    {
+                        Console.Write("Введите день недели : ");
+                        if (!Int32.TryParse(Console.ReadLine(), out day)) throw new Exception("Буквы — не цифры!");
+                        Console.Write("Введите неделю : ");
+                        if (!Int32.TryParse(Console.ReadLine(), out month)) throw new Exception("Буквы — не цифры!");
+                        Console.WriteLine($"Значение дня {MyOwn[--day, --month]}");
+                    }
+                    catch (Exception Error)
+                    {
+                        Console.WriteLine($"Ошибка : {Error.Message}");
+                    }
+                }
+                Console.Write("\nХотите изменить значение любого дня 1ого дневника? ");
+                if(Console.ReadLine().ToLower().Replace("l", "д").Replace("f", "а") == "да")
+                {
+                    try
+                    {
+                        int number;
+                        Console.Write("Введите день недели : ");
+                        if (!Int32.TryParse(Console.ReadLine(), out day)) throw new Exception("Буквы — не цифры!");
+                        Console.Write("Введите неделю : ");
+                        if (!Int32.TryParse(Console.ReadLine(), out month)) throw new Exception("Буквы — не цифры!");
+                        Console.Write("Введите новое значение : ");
+                        if (!Int32.TryParse(Console.ReadLine(), out number)) throw new Exception("Буквы — не цифры!");
+                        MyOwn[--day, --month] = number;
+                        Console.WriteLine($"Получилося!");
+                        MyOwn.Output();
+                    }
+                    catch (Exception Error)
+                    {
+                        Console.WriteLine($"Ошибка : {Error.Message}");
+                    }
+                }
+                Console.Write("Хотите еще что-нибудь сделать со значениями 1ого дневника? ");
+            }
+            while (Console.ReadLine().ToLower().Replace("l", "д").Replace("f", "а") == "да");
             Console.ReadKey();
         }
     }

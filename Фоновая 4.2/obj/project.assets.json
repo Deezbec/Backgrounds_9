@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\User\\!Kirill\\ООП\\Фоновые\\Фоновая 4.2\\Фоновая 4.2.csproj",
+      "projectUniqueName": "C:\\User\\!Kirill\\GitHub\\Backgrounds_9\\Фоновая 4.2\\Фоновая 4.2.csproj",
       "projectName": "Фоновая 4.2",
-      "projectPath": "C:\\User\\!Kirill\\ООП\\Фоновые\\Фоновая 4.2\\Фоновая 4.2.csproj",
+      "projectPath": "C:\\User\\!Kirill\\GitHub\\Backgrounds_9\\Фоновая 4.2\\Фоновая 4.2.csproj",
       "packagesPath": "C:\\Users\\grege\\.nuget\\packages\\",
-      "outputPath": "C:\\User\\!Kirill\\ООП\\Фоновые\\Фоновая 4.2\\obj\\",
+      "outputPath": "C:\\User\\!Kirill\\GitHub\\Backgrounds_9\\Фоновая 4.2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\grege\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
