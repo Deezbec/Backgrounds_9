@@ -1,0 +1,10 @@
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 6.1\bin\Debug\Фоновая 6.1.exe.config
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 6.1\bin\Debug\Фоновая 6.1.exe
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 6.1\bin\Debug\Фоновая 6.1.pdb
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 6.1\obj\Debug\Фоновая 6.1.csprojAssemblyReference.cache
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 6.1\obj\Debug\Фоновая_6._1.Form1.resources
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 6.1\obj\Debug\Фоновая_6._1.Properties.Resources.resources
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 6.1\obj\Debug\Фоновая 6.1.csproj.GenerateResource.cache
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 6.1\obj\Debug\Фоновая 6.1.csproj.CoreCompileInputs.cache
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 6.1\obj\Debug\Фоновая 6.1.exe
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 6.1\obj\Debug\Фоновая 6.1.pdb

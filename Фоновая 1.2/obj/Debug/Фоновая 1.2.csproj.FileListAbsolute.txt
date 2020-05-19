@@ -1,0 +1,7 @@
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 1.2\bin\Debug\Фоновая 1.2.exe.config
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 1.2\bin\Debug\Фоновая 1.2.exe
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 1.2\bin\Debug\Фоновая 1.2.pdb
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 1.2\obj\Debug\Фоновая 1.2.csprojAssemblyReference.cache
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 1.2\obj\Debug\Фоновая 1.2.csproj.CoreCompileInputs.cache
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 1.2\obj\Debug\Фоновая 1.2.exe
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 1.2\obj\Debug\Фоновая 1.2.pdb

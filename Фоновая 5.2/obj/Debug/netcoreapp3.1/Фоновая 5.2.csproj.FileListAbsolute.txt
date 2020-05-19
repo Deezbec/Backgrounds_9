@@ -1,0 +1,13 @@
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 5.2\bin\Debug\netcoreapp3.1\Фоновая 5.2.exe
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 5.2\bin\Debug\netcoreapp3.1\Фоновая 5.2.deps.json
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 5.2\bin\Debug\netcoreapp3.1\Фоновая 5.2.runtimeconfig.json
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 5.2\bin\Debug\netcoreapp3.1\Фоновая 5.2.runtimeconfig.dev.json
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 5.2\bin\Debug\netcoreapp3.1\Фоновая 5.2.dll
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 5.2\bin\Debug\netcoreapp3.1\Фоновая 5.2.pdb
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 5.2\obj\Debug\netcoreapp3.1\Фоновая 5.2.csprojAssemblyReference.cache
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 5.2\obj\Debug\netcoreapp3.1\Фоновая 5.2.csproj.CoreCompileInputs.cache
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 5.2\obj\Debug\netcoreapp3.1\Фоновая 5.2.AssemblyInfoInputs.cache
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 5.2\obj\Debug\netcoreapp3.1\Фоновая 5.2.AssemblyInfo.cs
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 5.2\obj\Debug\netcoreapp3.1\Фоновая 5.2.dll
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 5.2\obj\Debug\netcoreapp3.1\Фоновая 5.2.pdb
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 5.2\obj\Debug\netcoreapp3.1\Фоновая 5.2.genruntimeconfig.cache

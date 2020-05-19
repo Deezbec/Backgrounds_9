@@ -10,3 +10,10 @@ C:\User\!Kirill\ООП\Фоновые\Фоновая 3.3\bin\Debug\Фонова�
 C:\User\!Kirill\ООП\Фоновые\Фоновая 3.3\obj\Debug\Фоновая 3.3.csprojAssemblyReference.cache
 C:\User\!Kirill\ООП\Фоновые\Фоновая 3.3\obj\Debug\Фоновая 3.3.exe
 C:\User\!Kirill\ООП\Фоновые\Фоновая 3.3\obj\Debug\Фоновая 3.3.pdb
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 3.3\bin\Debug\Фоновая 3.3.exe.config
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 3.3\bin\Debug\Фоновая 3.3.exe
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 3.3\bin\Debug\Фоновая 3.3.pdb
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 3.3\obj\Debug\Фоновая 3.3.csprojAssemblyReference.cache
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 3.3\obj\Debug\Фоновая 3.3.csproj.CoreCompileInputs.cache
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 3.3\obj\Debug\Фоновая 3.3.exe
+C:\User\!Kirill\GitHub\Backgrounds_9\Фоновая 3.3\obj\Debug\Фоновая 3.3.pdb
